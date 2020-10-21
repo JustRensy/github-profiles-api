@@ -95,3 +95,9 @@ input::placeholder {
 	font-size: 200px;
 	opacity: 35%;
 }
+
+@media screen and (max-width: 900px) {
+	.card-container {
+		margin: 0 1.2rem;
+	}
+}
