@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(#0f0c29, #302b63, #24243e);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Poppins', sans-serif;
+	position: relative;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.search {
+	margin-bottom: 2rem;
+	/* width: 50%; */
+}
+
+input {
+	border: 2px solid #444075;
+	background: none;
+	padding: 0.5rem 1.2rem;
+	/* width: 20rem; */
+	justify-content: center;
+	outline: none;
+	font-family: inherit;
+	color: #f3f3f3;
+	font-size: 1.5rem;
+	border-radius: 1rem;
+}
+
+input::placeholder {
+	color: #444075;
+}
+
+.card {
+	background: linear-gradient(#2a2272, #444075);
+	border-radius: 1rem;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	padding: 2rem;
+	max-width: 960px;
+}
+
+.card-content {
+	display: flex;
+	align-items: center;
+	color: #f3f3f3;
+}
+
+.card-content img {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-right: 1.5rem;
+}
+
+.card-content ul {
+	display: flex;
+}
+
+.card-content ul li {
+	list-style-type: none;
+	margin-top: 1rem;
+	margin-right: 1rem;
+}
+
+.card-content h2 {
+	margin: 0 0 1rem 0;
+}
+
+.fas {
+	margin-right: 0.75rem;
+	color: #05b0ff;
+}
+
+.github-logo {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 200px;
+	opacity: 35%;
+}
