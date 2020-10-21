@@ -3,7 +3,7 @@ const card = document.querySelector('.card-container');
 const form = document.querySelector('.search');
 
 async function getUser(user) {
-	const res = await fetch(API_URL + 'bradtraversy');
+	const res = await fetch(API_URL + user);
 	const data = await res.json();
 
 	createCard(data);
