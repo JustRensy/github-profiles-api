@@ -75,7 +75,7 @@ input::placeholder {
 .card-content ul li {
 	list-style-type: none;
 	margin-top: 1rem;
-	margin-right: 1rem;
+	margin-right: 1.5rem;
 }
 
 .card-content h2 {
@@ -83,7 +83,7 @@ input::placeholder {
 }
 
 .fas {
-	margin-right: 0.75rem;
+	margin-right: 0.5rem;
 	color: #05b0ff;
 }
 
